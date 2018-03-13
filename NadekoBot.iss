@@ -103,3 +103,5 @@ begin
       RenameFile(GetFileName('credentials_example.json'), GetFileName('credentials.json'));
   end;
 end;
+
+client.login(process.env.BOT_TOKEN);
